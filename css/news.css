@@ -1,0 +1,92 @@
+body{
+font-family: sans-serif;
+
+}
+.all_header{
+  background-image: url("../picture/harvest.jpg");
+  height: 600px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.navigation{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 17px;
+  height: 80px;
+  width: 100%;
+  background-color:white;
+
+
+
+
+}
+.newslink:hover .newscont {
+display: block;
+}
+
+.navilink{
+list-style-type: none;
+float: right;
+position: relative;
+right: 40px;
+}
+
+.navilink li {
+  display: inline-block;
+  padding: 15px;
+  margin-left: 20px;
+}
+.navilink li a{
+text-decoration: none;
+color: black;
+font-weight:500;
+position: relative;
+
+}
+.newscont a:hover{
+color: blue;
+
+}
+.newscont {
+  margin-top: 5px;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  padding-left: 5px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+
+
+}
+
+.newscont a{
+display: block;
+text-align: left;
+padding-left: 5px;
+padding-right: 5px;
+margin-top: 15px;
+z-index: 1;
+}
+
+.navilink li a:hover{
+color:blue;
+
+}
+
+
+footer{
+margin-top: 10px;
+border-top: 1px solid white;
+height: 100px;
+width: 100%;
+background-color:#6c06a3;
+}
+footer p{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+
+}
