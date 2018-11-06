@@ -1,0 +1,324 @@
+body{
+font-family: sans-serif;
+margin: 0px;
+
+}
+.all_header{
+  background-image: url("picture/clinic.jpg");
+  height: 600px;
+  width: auto;
+  background-position: left;
+  background-size: cover;
+
+}
+
+.navigation{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 17px;
+  height: 80px;
+  width: 100%;
+  background-color:white;
+
+
+
+
+}
+.newslink:hover .newscont {
+display: block;
+}
+
+.navilink{
+list-style-type: none;
+float: right;
+position: relative;
+right: 40px;
+}
+
+.navilink li {
+  display: inline-block;
+  padding: 15px;
+  margin-left: 20px;
+}
+.navilink li a{
+text-decoration: none;
+color: black;
+font-weight:500;
+position: relative;
+
+}
+.newscont a:hover{
+color: blue;
+
+}
+.newscont {
+  margin-top: 5px;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  padding-left: 5px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+
+
+}
+
+.newscont a{
+display: block;
+text-align: left;
+padding-left: 5px;
+padding-right: 5px;
+margin-top: 15px;
+z-index: 1;
+}
+
+.navilink li a:hover{
+color:blue;
+
+}
+
+.intro{
+position: relative;
+bottom:-200px;
+font-family: 'Ubuntu', sans-serif;
+text-align: center;
+color: #736e87;
+}
+.intro h1{
+font-size: 60px;
+position: relative;
+top: -70px;
+
+
+}
+.intro p{
+  position: relative;
+  bottom: 145px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  z-index: 1;
+
+}
+
+.square{
+  bottom: 30px;
+  background-color: black;
+  background-blend-mode: overlay;
+  width:500px;
+  height:100px;
+  position: relative;
+  padding: 10px;
+  margin: auto;
+  border: 0px solid white;
+  border-radius: 8px;
+  opacity: 0.4;
+}
+
+.wite{
+  color: #736e87;
+  font-size: 60px;
+}
+.part{
+  border-top: 10px solid white;
+  height: 300px;
+  width: 100%;
+}
+.part .img1{
+  margin-top: 15px;
+  height: 200px;
+  width: 400px;
+  float: left;
+}
+.part .img2{
+  margin-top: 15px;
+  height: 200px;
+  width: 400px;
+  float: right;
+
+}
+
+.about{
+  float: right;
+  margin-right: 20px;
+  margin-top: 30px;
+  text-align: left;
+  position: relative;
+  right: 400px;
+
+}
+.button1{
+  text-decoration: none;
+  float: right;
+  padding: 15px;
+  background-color: #6c06a3;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  bottom: -0px;
+  right: -350px;
+}
+ .donatebtn :hover,.particaipatebtn :hover,.aboutbtn  :hover{
+  background-color: grey;
+}
+footer{
+margin-top: 10px;
+border-top: 1px solid white;
+height: 100px;
+width: 100%;
+background-color:#6c06a3;
+}
+
+footer p{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  height: 1px;
+}
+.part1{
+  height: 100px;
+  position: relative;
+  width: 80%;
+  background-color:#6c06a3;
+  align-self: center;
+  margin-left: 10%;
+  display: block;
+  margin-top: 10px;
+
+}
+.part1 .part1_1{
+  float: left;
+  width: 25%;
+  border-right: 4px solid white;
+  height: inherit;
+  overflow: hidden;
+}
+.part1 .part1_2{
+  float: left;
+  width: 25%;
+  border-right: 4px solid white;
+  height: inherit;
+  overflow: hidden;
+}
+.part1 .part1_3{
+  float: left;
+  width: 25%;
+  height: inherit;
+  border-right: 4px solid white;
+  overflow: hidden;
+}
+.part1 .part1_4{
+  float: left;
+  height: inherit;
+  width: auto;
+  overflow: hidden;
+}
+.part_donate{
+  height: 400px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.part_donate_left{
+height: inherit;
+width: 50%;
+background-color: #6c06a3;
+float: left;
+text-align: center;
+}
+
+.part_donate_right{
+height: inherit;
+width: 50%;
+background-color: #4a404f;
+float: left;
+text-align: center;
+}
+.news_cont{
+margin-top: 80px;
+height: 450px;
+width: 80%;
+margin-left: 10%;
+}
+.news_cont_0{
+}
+.news_cont_0 li{
+width: 24%;
+height: 300px;
+background-color: #6c06a3;
+display: inline-block;
+border: 1px solid white;
+}
+
+.news_cont_0 li:hover {
+  border: 1px solid black;
+
+}
+.part_quote{
+
+  height: 210px;
+  width: 100%;
+}
+
+.part_quote_contain h1{
+ position: relative;
+ font-size: 50px;
+ top: 40px;
+ left: 90px;
+ width: 50%;
+}
+
+.part_quote_contain p{
+  position: relative;
+  border-left: 6px solid red;
+  padding-left: 10px;
+  padding-top:55px;
+  height: 120px;
+  left: 50%;
+  top: -125px;
+  font-size: 20px;
+  width: 30%;
+  font-family: 'Ubuntu',sans-serif;
+}
+.button2{
+  text-decoration: none;
+  float: right;
+  padding: 15px;
+  background-color: #6c06a3;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  right: 210px;
+  bottom: -90px;
+}
+.part1 h1{
+text-align: center;
+color: white;
+}
+.part1_4 h1{
+  text-align: center;
+}
+
+.part1 p{
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-top: -15px;
+
+}
+.part1_4 p{
+  margin-left: 10px;
+}
+.news_cont_0 li a{
+  position: relative;
+  left: -90px;
+  bottom: -70%;
+}
+
+.news_cont_0 li :hover{
+background-color: grey;
+}
